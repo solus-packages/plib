@@ -1,0 +1,35 @@
+<PISI>
+    <Source>
+        <Name>plib</Name>
+        <Packager>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>programming.devel</PartOf>
+        <Summary xml:lang="en">A Suite of Portable Game Libraries</Summary>
+        <Description xml:lang="en">A Suite of Portable Game Libraries
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>plib-devel</Name>
+        <Summary xml:lang="en">Development files for plib</Summary>
+        <Description xml:lang="en">A Suite of Portable Game Libraries
+</Description>
+        <PartOf>programming.devel</PartOf>
+        <Files>
+            <Path fileType="header">/usr/include/</Path>
+            <Path fileType="library">/usr/lib64/lib*.a</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-10-07</Date>
+            <Version>1.8.5</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
+        </Update>
+    </History>
+</PISI>
